@@ -3,6 +3,7 @@ import Hero from "./ui/Hero";
 import Technologies from "./ui/Technologies";
 import { useEffect, useState } from "react";
 import type { TechType } from "./type/techType";
+import Footer from "./ui/Footer";
 
 const App = () => {
   const [technologies, SetTechnologies] = useState<TechType[]>([]);
@@ -28,6 +29,7 @@ const App = () => {
       <Nav />
       <Hero />
       <Technologies technologies={technologies} />
+      <Footer/>
     </div>
   );
 };

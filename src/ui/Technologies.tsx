@@ -12,7 +12,7 @@ const Technologies = ({ technologies }: TechnologiType) => {
   console.log(stack);
   return (
     <div>
-      <h2 className="font-extrabold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] text-[#0F172A] mt-16 sm:mt-20 lg:mt-28">
+      <h2 className="font-extrabold text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] text-[#0F172A] mt-10 sm:mt-20 lg:mt-28">
         Explore the{" "}
         <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span></h2>
 
