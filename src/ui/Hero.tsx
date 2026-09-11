@@ -12,8 +12,8 @@ const Hero = () => {
             compare them side by side, and put together the stack that fits
             your next project. </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <button className="bg-gradient-to-r from-[#FF5722] to-[#D81B7E] font-semibold text-[14px] text-white rounded-full py-2.5 px-5"> Explore Technologies</button>
-            <button className="font-semibold text-[14px] text-[#0F172A] border-2 border-[#0F172A] rounded-full py-2.5 px-5">Learn More </button>
+            <button className="bg-gradient-to-r from-[#FF5722] to-[#D81B7E] font-semibold text-[14px] text-white rounded-full py-2.5 px-5 cursor-pointer"> Explore Technologies</button>
+            <button className="font-semibold text-[14px] text-[#0F172A] border-2 border-[#0F172A] rounded-full py-2.5 px-5 cursor-pointer">Learn More </button>
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-24">
