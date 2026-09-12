@@ -1,32 +1,18 @@
-# React + TypeScript + Vite
+Project Name : TechStack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A Little Description
+TechStack Builder is a web application that helps developers explore different technologies and build their own personalized technology stack. Users can select technologies and easily manage their selected stack.
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React.js
+* TypeScript
+* Tailwind CSS
+* react toastify
+* JSON / API
 
-## React Compiler
+3 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Explore Technologies — Browse different technologies and their details.
+2. Build Your Stack — Add technologies to create a personalized tech stack.
+3. Manage Your Stack — Remove technologies from the stack and update the selection easily.
