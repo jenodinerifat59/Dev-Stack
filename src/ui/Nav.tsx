@@ -3,7 +3,7 @@ import Bar from "../assets/hamburger.png";
 
 const Nav = () => {
     return (
-        <nav className="w-full">
+        <nav className="w-full sticky top-0 z-50 bg-transparent">
             <div className="container mx-auto flex items-center justify-between px-4 py-4">
                 <button className="lg:hidden">
                     <img src={Bar} alt="Menu" className="w-7 h-7" />

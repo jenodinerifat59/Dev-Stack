@@ -33,7 +33,7 @@ const TechnologieCard = ({ technologie,stack,SetStack }: TechnologieCardType) =>
             <hr className="my-5 border-gray-200" />
             <div className="flex flex-wrap justify-between mb-5"><span className="px-3 py-1 bg-purple-100 text-purple-600 text-xs font-medium rounded-full">{technologie.category} </span><span className="px-3 py-1 bg-green-100 text-green-600 text-xs font-medium rounded-full">{technologie.difficulty}
             </span><span className="px-3 py-1 bg-yellow-100 text-yellow-600 text-xs font-medium rounded-full"> ⭐ {technologie.rating}</span> </div>
-            <button onClick={() => handelClick(technologie)} className="w-full py-3 rounded-xl bg-gradient-to-r from-[#FF5722] to-[#D81B7E] text-white font-semibold hover:bg-blue-700 active:scale-95 transition-all duration-200 cursor-pointer" disabled={isAdded}>
+            <button onClick={() => handelClick(technologie)} className={`w-full py-3 rounded-xl  text-white font-semibold active:scale-95 transition-all duration-200 cursor-pointer ${isAdded ? "bg-black" :"bg-gradient-to-r from-[#FF5722] to-[#D81B7E]"}`} disabled={isAdded}>
                {isAdded ? "✓ Added to Stack" : "Add to Stack"}
             </button>
         </div>
